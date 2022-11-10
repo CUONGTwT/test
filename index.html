@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputs {
+            position: absolute;
+            background-color: black;
+            height: 60%;
+            width: 70%;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        label {
+            position: relative;
+            top: -5px;
+            color: white;
+        }
+
+        input {
+            margin-top: 20px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            width: 30%;
+            height: 10%;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inputs">
+        <label for="name">WEB DEV:</label>
+        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+    </div>
+
+</body>
+
+</html>
